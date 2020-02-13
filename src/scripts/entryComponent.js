@@ -6,8 +6,9 @@ const cardBuilderObject = {
             <div>
             <p>${places.description}</p>
             <section>Cost: $${places.cost}</section>
-            <p>Review: ${places.review}</p>
             </div>
+            <button id="editPlace--${places.id}">Edit Place</button>
+            <button id="deletePlace--${places.id}">Delete Place</button>
         `
     }
 }
