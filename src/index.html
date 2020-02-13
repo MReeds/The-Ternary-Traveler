@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ternary Traveler</title>
 </head>
+
 <body>
+    <div>
+        <div class="interest">
+            <label for="point-of-interest">Point of Interest: </label>
+            <input type="text" name="interests" id="interestName" placeholder="Name">
+        </div>
+        <div class="description">
+            <label for="description-of-interest">Description: </label>
+            <input type="text" name="description" id="interestDescription">
+        </div>
+        <div class="cost">
+            <label for="cost-of-interest">Cost: </label>
+            <input type="text" name="cost" id="interestCost" placeholder="0.00">
+        </div>
+        <div class="location">
+            <label for="location-of-interest">Location of Interest: </label>
+            <select id="interestLocation">
+                <option value="1">Italy</option>
+                <option value="2">Switzerland</option>
+                <option value="3">France</option>
+            </select>
+        </div>
+        <div class="record-button">
+            <input id="record-button" class="record-btn" type="button" value="Record Point of Interest">
+        </div>
+    </div>
+    <article class="places-on-dom">
+
+    </article>
     <script type="module" src="./scripts/main.js"></script>
 </body>
-</html>
