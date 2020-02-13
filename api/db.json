@@ -1,43 +1,50 @@
 {
-    "places": [{
-            "id": 1,
-            "name": "Italy",
-            "visa_required": false
-        },
-        {
-            "id": 2,
-            "name": "Switzerland",
-            "visa_required": true
-        },
-        {
-            "id": 3,
-            "name": "France",
-            "visa_required": false
-        }
-    ],
-    "interests": [{
-            "id": 1,
-            "placeId": 1,
-            "name": "Pantheon",
-            "description": "The Pantheon is a former Roman temple, now a church, in Rome, Italy",
-            "cost": 0.00,
-            "review": ""
-        },
-        {
-            "id": 2,
-            "placeId": 3,
-            "name": "Louvre Museum",
-            "description": "The Louvre is the world's largest art museum and a historic monument in Paris, France",
-            "cost": 16.28,
-            "review": ""
-        },
-        {
-            "id": 3,
-            "placeId": 2,
-            "name": "Chillon Castle",
-            "description": "Chillon Castle is an island castle located on Lake GenevaChillon and is amongst the most visited castles in Switzerland and Europe.",
-            "cost": 13.85,
-            "review": ""
-        }
-    ]
+  "places": [
+    {
+      "id": 1,
+      "name": "Italy",
+      "visa_required": false
+    },
+    {
+      "id": 2,
+      "name": "Switzerland",
+      "visa_required": true
+    },
+    {
+      "id": 3,
+      "name": "France",
+      "visa_required": false
+    },
+    {
+      "id": 4,
+      "name": "Germany",
+      "visa_required": true
+    }
+  ],
+  "interests": [
+    {
+      "id": 1,
+      "placeId": 1,
+      "name": "Pantheon",
+      "description": "The Pantheon is a former Roman temple, now a church, in Rome, Italy",
+      "cost": 0,
+      "review": ""
+    },
+    {
+      "id": 2,
+      "placeId": 3,
+      "name": "Louvre Museum",
+      "description": "The Louvre is the world's largest art museum and a historic monument in Paris, France",
+      "cost": 16.28,
+      "review": ""
+    },
+    {
+      "id": 3,
+      "placeId": 2,
+      "name": "Chillon Castle",
+      "description": "Chillon Castle is an island castle located on Lake GenevaChillon and is amongst the most visited castles in Switzerland and Europe.",
+      "cost": 13.85,
+      "review": ""
+    }
+  ]
 }

@@ -4,18 +4,18 @@ const entryContainer = document.querySelector(".places-on-dom")
 
 const domOperations = {
 
-    vacationFactory: (name, interests, description, cost, review) => {
-        newEntryObject = {
+    vacationFactory: (placeId, name, description, cost) => {
+        const newEntryObject = {
+            placeId: placeId,
             name: name,
-            interests: interests,
             description: description,
-            cost: cost,
-            review: review
+            cost: cost
         }
         return newEntryObject
     },
 
     renderVacations: (vacations) => {
+        entryContainer.innerHTML = "";
         vacations.forEach(vacation => {
             entryContainer.innerHTML += cardBuilderObject.entryComponent(vacation)
         })
